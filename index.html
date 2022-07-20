@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;700;800&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .page {
+            width: 1000px;
+            margin: 0 auto;
+            font-family: 'Manrope', sans-serif;
+        }
+
+        h1 {
+            font-size: 135px;
+            font-weight: 800;
+            line-height: normal;
+            letter-spacing: 4.5%;
+            text-transform: uppercase;
+            color: white;
+        }
+
+        h2 {
+            font-size: 28px;
+            font-weight: 300;
+            line-height: 38px;
+        }
+
+        p {
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 140%;
+            margin: 0%;
+        }
+
+        a:link {
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 22px;
+            color: #000000; 
+            
+        }
+        a:visited {
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 22px;
+            color: #000000;
+        }
+        a:hover {
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 22px;
+            color: #4e5f7e; 
+            border-bottom: .07em solid;
+        }
+        a:active {
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 22px;
+            color: #497DDD; 
+            border-bottom: 1px dashed;
+        }
+
+        .header {
+            justify-content: center;
+        }
+
+        .header__container {
+            display: flex;
+            position: relative;
+            flex-wrap: wrap;
+        }
+
+        .header__container overlay {
+            display: flex;
+            position: absolute;
+            margin: 0 0 0 25px;
+            flex-wrap: wrap;
+            align-content: space-between
+          
+        }
+
+        .header__top {
+            display: flex;
+            height: 29px;
+        }
+
+        .header__logo {
+            width: 91px;
+            height: 29px;
+            margin: 9px 0 0 0;
+        }
+
+        .header__menu-list {
+            display: flex;
+            align-items: flex-end;
+            list-style: none;
+            gap: 20px;
+            margin: 0 0 0 477px;
+            padding: 0;
+        }
+
+        .header__name {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .header__menu {
+         display: flex;
+         justify-content: space-between;
+         font-size: 14px;
+         line-height: 19.6px;
+        }
+
+        .header__prename {
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 2;
+            margin: 205px 265px 0;
+            color: white;
+        }
+
+        .header__common_name {
+            display: flex;
+            margin: -43px 257px;
+
+        }
+
+        .main__top {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-top: 0 auto;
+        }
+
+        .main__head {
+        font-style: regular;
+        margin: 0 auto;
+        margin-top: 13px;
+
+        }
+
+        .main__lead {
+            text-align: center;
+            font-size: 21px;
+            line-height: 29px;
+            width: 721px;
+            margin: 0 auto;
+            margin-top: 43px;
+        }
+
+        .main__screen1_head {
+            display: flex;
+            margin-top: 62px;
+            flex-wrap: wrap;
+        }
+
+        .main__headers {
+            display: flex;
+            margin-left: 25px;
+        }
+
+        .main__description {
+            display: flex;
+            flex-direction: column;
+            margin: 0;
+            margin-left: 10px;
+            width: 390px;
+        }
+
+        .main__link {
+            display: flex;
+            height: 22px;
+            margin-top: 57px;
+        }
+
+    
+
+    </style>
+    <title>Document</title>
+</head>
+<body class="page">
+    <header class="header">
+        <top class="header__container">
+            <img src="./Head.jpg" alt="background_image">
+            <overlay class="header__top">   
+                <img class="header__logo" src="./Logo_vyazan.svg" alt="">
+                <nav class="header__menu">
+                    <ul class="header__menu-list">
+                        <li>Коллекции</li> 
+                        <li>Одежда</li> 
+                        <li>Аксессуары</li> 
+                        <li>Наши магазины</li> 
+                    </ul>
+                </nav>
+                <div class="header__name">
+                    <h2 class="header__prename">Осень — зима 2023</h2> 
+                    <h1 class="header__common_name">Earth</h1> 
+                </div>
+            </overlay>
+            
+          
+        </top>
+
+    </header>
+    <main>
+       <main_head>
+        <div class="main__top"> 
+            <h2 class="main__head">
+            Новая коллекция
+            </h2>
+            <p class="main__lead">
+            Новая коллекция посвящена нашему общему дому — планете Земля. Открывайте её заново каждый раз, когда отправляетесь в путешествие, и делайте это в наших тёплых свитерах.
+            </p>
+        </div>
+        </main_head>
+        <div class="main__screen1_head">
+            <img class="main__headers" src="./women.jpg" alt="">
+            <div class="main__description">
+               <p>Обновите сезонный гардероб нашей коллекцией вязаных свитеров и кардиганов. Кашемир, альпака, мериносовая шерсть  — вечная классика, в которой вам будет комфортно даже в холодные осенние ночи на природе, а стильные фасоны делают одежду идеальной для города.</p> 
+                <a class="main__link" href=" ">Женская коллекция</a>
+            </div>
+            
+
+
+        </div>
+
+    </main>
+    <footer>
+
+    </footer>
+    
+</body>
+</html>
